@@ -12,7 +12,7 @@ concurrency:
 permissions:
   contents: write
   id-token: write
-  attestations: none
+  attestations: write
 
 jobs:
   release:
@@ -20,7 +20,6 @@ jobs:
     permissions:
       contents: write
       id-token: write
-      attestations: none
     with:
       generate: true
 
