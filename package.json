@@ -1,8 +1,7 @@
 {
-  "name": "tree-sitter-razor",
+  "name": "tree-sitter-try-out",
   "version": "0.1.0",
   "description": "Razor grammar for tree-sitter",
-  "repository": "github:tree-sitter/tree-sitter-razor",
   "license": "MIT",
   "author": {
     "name": "Yes",
@@ -11,10 +10,6 @@
   "main": "bindings/node",
   "types": "bindings/node",
   "keywords": [
-    "incremental",
-    "parsing",
-    "tree-sitter",
-    "razor"
   ],
   "files": [
     "grammar.js",
